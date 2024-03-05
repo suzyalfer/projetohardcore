@@ -46,11 +46,25 @@ menu.addEventListener('click', function(){
     
 })
 
+/*
+btnPop.addEventListener('click', function(){
+
+    pop.classList.replace('pop','d-none');
+       
+    
+})
+
+*/
+
+/*btnPop.addEventListener('click', function(){
+
+    pop.classList.add('d-none');    
+    
+})*/
 
 btnPop.addEventListener('click', function(){
 
-    pop.classList.replace('pop','popClose');
-       
+    pop.style.display = 'none';
     
 })
 

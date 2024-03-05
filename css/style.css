@@ -88,7 +88,7 @@ img {
     display: inline-block;
     transition: 0.2s;
     border: solid 2px transparent;
-    cursor: pointer;
+    cursor: pointer; /*para ficar como cursor*/
     /*cursor: url(../img/cursor.png) 14 14, pointer;*/
 }
 
@@ -378,11 +378,11 @@ img {
 
 .pop{
   
-    position: absolute;
+    position: fixed;
     z-index: 2000;
     left: calc(50vw - 250px);
     display: flex;
-   
+    
 }
 
 .btn-pop{
@@ -412,12 +412,9 @@ img {
 
 }
 
-.popClose{
+.d-none{
     display: none;
-
 }
-
-
 
 
 
@@ -575,4 +572,12 @@ img {
     .faca-parte .image {
         display: none;
     }
+
+    .image-pop{
+
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
 }
+
